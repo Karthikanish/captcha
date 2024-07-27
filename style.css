@@ -1,0 +1,53 @@
+body div{
+   
+    display: inline-block;
+   background-color: rgb(177, 194, 194);
+
+   
+}
+
+#image {
+    padding: 20px;
+    padding-bottom: 0px;
+    height: 40px;
+    text-decoration: line-through;
+    font-style: oblique;
+    font-size: x-large;
+    border: #000 2px solid;
+    margin-left: 80px;
+    width: 60px;
+    font-weight: 800;
+    
+  
+}
+
+
+#user-input {
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 30px;
+    padding-bottom: 20px;
+    height: 40px;
+    margin: 30px;
+   
+    
+}
+
+
+input {
+    border: 1px black solid;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.inline {
+    display: inline-block;
+    margin-left: 125px;
+}
+
+#btn {
+    color: white;
+    margin: 40px;
+    background-color: #0a029d;
+    margin-top: 20px;
+    margin-left: 100px;
+}

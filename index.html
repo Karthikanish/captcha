@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <script src="captcha.js"></script>
+</head>
+
+<body onload="generate()">
+    <div>
+        <div id="user-input" class="inline">
+            <input type="text" id="submit" placeholder="Captcha code" />
+        </div>
+        <br>
+        <br>
+        <div class="inline" onclick="generate()">
+            <i class="fas fa-sync"></i>
+        </div>
+        <br>
+        <br>
+
+        <div id="image" class="inline" selectable="False">
+        </div>
+        <br>
+        <br>
+        <input type="submit" id="btn" onclick="printmsg()" />
+
+        <p id="key"></p>
+    </div>
+
+</body>
+
+</html>
